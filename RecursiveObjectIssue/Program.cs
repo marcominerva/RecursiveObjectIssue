@@ -31,7 +31,7 @@ public class Category
 
     public Category? Parent { get; set; }
 
-    // The issue happens even with I use a primitive type for the collection.
+    // The issue happens even when using a primitive type for the collection.
     public IEnumerable<Tag> Tags { get; set; } = [];
 }
 
